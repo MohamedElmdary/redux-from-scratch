@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <h1>Counter <span id="counter"></span></h1>
+            <button id="inc">Increment</button>
+            <button id="dec">Decrement</button>
+            <button id="incIn1">INcrement In 1 sec</button>
+        </div>
+
+        <!-- redux -->
+        <script src="./lib/store.js"></script>
+        <script src="./lib/createStore.js"></script>
+        <script src="./lib/applyMiddleware.js"></script>
+        <script src="./lib/logger.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/redux-thunk/2.3.0/redux-thunk.min.js"></script>
+        <script src="./lib/combineReducers.js"></script>
+
+        <script src="./counter-reducer.js"></script>
+    </body>
+</html>
